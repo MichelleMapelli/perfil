@@ -1,0 +1,73 @@
+html,
+body,
+main,
+article,
+footer,
+aside,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+header,
+table,
+tbody,
+hgroup,
+nav {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.titulo {
+    background-color: rgb(79, 79, 79);
+    text-align: center;
+    padding: 5px;
+    color: rgb(236, 236, 236);
+    font-size: 2.5em;
+}
+
+div.foto {
+    margin: 20px;
+    background-image: url(img/2015-01-23.jpg);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    height: 210px;
+}
+
+nav {
+    list-style-type: none;
+    width: 300px;
+    margin: 0;
+    margin-top: 20px;
+    padding: 0;
+}
+
+nav li {
+    padding: 8px 16px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: rgb(211, 211, 211);
+    padding: 8px 16px;
+    display: block;
+    font-size: 1.2em;
+}
+
+nav li a.active {
+    background-color: rgb(79, 79, 79);
+    color: white;
+}
+
+nav li a:hover {
+    background-color: rgb(79, 79, 79);
+    color: white;
+}
