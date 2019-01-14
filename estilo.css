@@ -23,6 +23,9 @@ nav {
 
 body {
     background-color: black;
+    background-image: linear-gradient(-135deg, transparent, transparent 14px, rgba(102, 102, 102, 0.5), rgba(102, 102, 102, 0.5) 15px, transparent 14px, transparent);
+    background-size: 20px 20px;
+    background-attachment: fixed;
     color: white;
 }
 
